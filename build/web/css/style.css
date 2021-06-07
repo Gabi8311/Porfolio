@@ -1,0 +1,1339 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  cursor: url("https://img.icons8.com/officexs/2x/generic-mouse.png"), auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway",sans-serif;
+  font-weight: 200;
+  font-size: .9em;
+  overflow-x: hidden;
+}
+
+.h4 {
+  font-weight: 700;
+  color: #b0acac;
+  font-size: 2rem;
+}
+
+a{
+  color:inherit;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+header{
+  height: auto;
+  min-width: 100vw;
+}
+
+footer{
+  background-color: rgb(195, 194, 194);
+  height: auto;
+  margin-top: 3%;
+  min-width: 100vw;
+}
+
+/*-- RRSS --*/
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono{
+  width: 12vw;
+  height: 6vh;
+  display: flex;
+  margin-top: 0.5%;
+}
+
+.icon{
+  width: 17%;
+  height: 95%;
+  margin-left: 10%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  border-radius: 50%;
+  transition: all .4s;
+}
+  
+.icon:nth-last-child(1):hover{
+  color: #034eb1;
+  box-shadow: 0px 0px 0px 10px #034eb1;
+}
+
+.icon:nth-last-child(2):hover{
+  color:#c32aa3;
+  box-shadow: 0px 0px 0px 10px #c32aa3;
+}
+
+.icon:nth-last-child(3):hover{
+  color: #1877f2;
+  box-shadow: 0px 0px 0px 10px #1877f2;
+}
+  
+.icon:nth-last-child(4):hover{
+  color: #555;
+  box-shadow: 0px 0px 0px 10px #555;
+} 
+
+.fa-instagram {
+  filter:drop-shadow (0px 0px 10px #c32aa3); 
+  font-size: 150%;
+}
+
+.fa-facebook-f {
+  filter:drop-shadow (0px 0px 10px  #1877f2); 
+  font-size: 150%;
+}
+
+.fa-linkedin-in {
+  filter:drop-shadow (0px 0px 10px  #034eb1); 
+  font-size: 150%;
+}
+
+.fa-github {
+  filter:drop-shadow (0px 0px 10px #555); 
+  font-size: 150%;
+} 
+  
+.fa-instagram:hover{
+  color: #c32aa3;
+  filter:drop-shadow (0px 0px 10px #c32aa3); 
+  transition: .5s;
+  padding: 3%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.fa-facebook-f:hover {
+  color: #1877f2;
+  filter:drop-shadow (0px 0px 10px  #1877f2); 
+  transition: .5s;
+  padding: 3%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.fa-github:hover {
+  color: #555;
+  filter:drop-shadow (0px 0px 10px #555); 
+  transition: .5s;
+  padding: 3%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+} 
+
+.fa-linkedin-in:hover {
+  color: #034eb1;
+  filter:drop-shadow (0px 0px 10px  #034eb1); 
+  padding: 3%;
+  transition: .1s;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+} 
+ 
+ /*-----*/
+
+.aire{
+  width: 80%;
+  border-color: darkgrey;
+  margin: 12% auto;
+}
+  
+.hr {
+  width: 30%;
+  margin: 0 auto;
+  border-color: darkgrey;
+}
+
+  /*-- Gabriel Moreno Header --*/
+svg{
+  display: block;
+  font: 7.5em 'Montserrat';
+  width: 60%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.gm_svg{
+  width: 80%;
+  position: absolute;
+  top: 70%;
+  margin-left: 10%;
+}
+
+.text-dash {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 6.5s infinite linear;
+}
+.text-dash:nth-child(1){
+  stroke: #430253;
+  animation-delay: -1;
+}
+.text-dash:nth-child(2){
+  stroke: #651095;
+  animation-delay: -2s;
+}
+.text-dash:nth-child(3){
+  stroke: #7e3ebb;
+  animation-delay: -3s;
+}
+.text-dash:nth-child(4){
+  stroke: #ca89f5;
+  animation-delay: -4s;
+}
+.text-dash:nth-child(5){
+  stroke: #c6c6c7;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100%{stroke-dashoffset: 35%;}
+}
+
+ /* ----- DARKEN BG -----*/
+  
+ .darken {
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+}
+
+.fake-bg {
+  opacity: 0;
+  transition: opacity .5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index:  -1;
+}
+
+.fake-bg.on {
+  opacity: 1;
+}
+
+/* ----- REVEAL EFFECTS ----- */
+  
+  
+.reveal.fadeInUp {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+  transform: translateY(20px);
+}
+
+.reveal.fadeInUp.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal.fadeInRight {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+  transform: translateX(20px);
+}
+
+.reveal.fadeInRight.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.reveal.fadeInLeft {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+  transform: translateX(-20px);
+}
+
+.reveal.fadeInLeft.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.reveal.fadeIn {
+  transition-property: opacity;
+  transition-duration: 1s;
+  opacity: 0;
+}
+
+.reveal.fadeIn.visible {
+  opacity: 1;
+}
+
+[data-delay='300ms'] {
+  transition-delay: 300ms;
+}
+
+[data-delay='600ms'] {
+  transition-delay: 600ms;
+}
+
+/* ----- ABOUT ----- */
+  
+.about img {
+  width: 50%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+  margin: 5% 20% 0 0;
+}
+
+ /* ----- NAVIGATION ----- */
+  
+ .navigation {
+  border-bottom: 1px solid rgb(230,230,230);
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 9999;
+  transition: all .3s;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation.sticky {
+  padding: 0;
+  background: white;
+}
+
+.navigation img {
+  height: 35px;
+  margin: 8% 2%;
+  
+}
+
+.navigation ul {
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navigation li a {
+  font-size: 130%;
+  padding: 2% 1%;
+  margin-top: 6%;
+  display: block;
+  margin-left: 3.5vw;
+  font-weight: 600;
+}
+
+.navigation li a:hover {
+  text-decoration: none;
+}
+
+.fondo_arriba{
+  width: 100vw;
+  object-fit: cover;
+  padding: 0;
+}
+
+.fondo_arriba{
+  min-height: 100vh;
+}
+
+.fondo_arriba p {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+
+.boton-arriba{
+  line-height: 1;
+  padding: .2% 1% .8% 1%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+/*-- PARALLAX --*/
+
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+}
+
+.box{
+  width: 350px;
+  height: 300px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg,#821dd4 0%,#C850C0 46%,#ba70ff 100%);
+  position: relative;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.box::before{
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(80, 6, 141);
+  box-shadow: 0 0 30px #a341d0;
+  transform: translateZ(0px);
+  transition: all 1s;
+}
+
+.box:hover::before{
+  transform: translateZ(80px);
+}
+
+.box::after{
+  content: 'Gabi';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 10px white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway',sans-serif;
+  transform: translateZ(0px);
+  transition: all 1s;
+}
+
+.box:hover::after{
+  font-size: 4rem;
+  transform: translateZ(150px);
+}
+
+/*Ver más*/
+.contenedor{
+  font-size: 1.2rem;
+  color: #ba70ff;
+  position: absolute;
+  top: 100%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  margin-top: 4%;
+}
+
+.contenedor a{
+  color: #ba70ff;
+  text-decoration: none;
+  font-family: "Raleway",sans-serif;
+}
+
+.contenedor i{
+  margin-left: 10px;
+  font-size: 1.2rem;
+  transition: all .5s;
+}
+
+.contenedor a:hover > i{
+  transform: translateX(10px);
+  width: 1px;
+}
+
+.bg{
+  position: absolute;
+  bottom: 1px;
+  left: -4px;
+  border-radius: 50px;
+  width: 25%;
+  height: 25%;
+  z-index: -1;
+  background-color: #b13bff;
+  background-image: linear-gradient(147deg,#ebd8fb 0%,#3f03ad 74%);
+  transition: all .5s;
+}
+
+.contenedor a:hover ~ .bg{
+  width: 80%;
+}
+/**/
+.logo-abajo{
+  width: 35%;
+}
+
+/*-- IMAGE-SHADOW --*/
+.img-shadow{
+  box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+  
+}
+.img-shadow-white{
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+/*---- Autorrellenable ----*/
+.autorrellenable{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;  
+  min-height: 160%;
+}
+
+#text{
+  font-size: 3rem;
+  font-family: "Raleway",sans-serif;
+}
+
+.line{
+  animation: anim 0.5 infinite linear ;
+}
+
+@keyframes anim{
+    0%,100%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+}
+/*-- Foto con iconos --*/
+
+.team-member{
+  width: 30%;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.team-member img {
+  max-width: 150%;
+  transition: all 0.3s;
+}
+
+.team-member:hover img {
+  transform: scale(1.2);
+  filter: brightness(50%);
+}
+
+.social-media-icons {
+  position: absolute;
+  left:35% ;
+  bottom:-80%;
+}
+
+.social-media-icons a {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-decoration: none;
+  width: 50px; 
+  height: 50px;
+  background-color: #272727;
+  color: #fff;
+  opacity: 0.8;
+  transform: translate(-50px, -50px);
+  transition: transform 0.3s;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.social-media-icons a:hover {
+  color: #272727;
+  background-color: #fff;
+}
+
+.social-media-icons a:first-child { 
+  transition-delay: 0.1s;
+}
+.social-media-icons a:nth-child(2) { 
+  transition-delay: 0.2s;
+}
+.social-media-icons a:nth-child(3) { 
+  transition-delay: 0.3s;
+}
+.social-media-icons a:last-child { 
+  transition-delay: 0.4s;
+}
+
+.team-member:hover .social-media-icons a {
+  transform: translate(0);
+}
+
+.team-member:hover .social-media-icons a:first-child {
+  transition: transform 0.3s 0.5s, background-color 0.3s, color 0.3s ;
+}
+
+.team-member:hover .social-media-icons a:nth-child(2) {
+  transition: transform 0.3s 0.4s, background-color 0.3s, color 0.3s ;
+}
+
+.team-member:hover .social-media-icons a:nth-child(3) {
+  transition: transform 0.3s 0.3s, background-color 0.3s, color 0.3s ;
+}
+
+.team-member:hover .social-media-icons a:last-child {
+  transition: transform 0.3s 0.2s, background-color 0.3s, color 0.3s ;
+}
+
+.team-member p{
+  position: relative;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  font-family: "Raleway",sans-serif;
+  letter-spacing: .5px;
+  transition: all 0.5s;
+  transition-delay: 0.5s;
+  text-transform: capitalize;
+  font-size: 150%;
+}
+
+.team-member:hover p{
+  opacity: 1;
+  transform: translateX(10px);
+  bottom:.95rem;
+}
+
+
+ /* ----- NEW ICONS ----- */
+.btn,
+.btn::before,
+.btn .fa {
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.31,-0.105,0.43,1.59);
+}
+  
+.btn::before {
+  top: 98%;
+  left: -10%;
+}
+
+.btn .fa {
+  transform: scale(0.8);
+}
+
+.btn.instagram::before {
+  background-color: #c32aa3;
+}
+
+i {
+  color: #fff;
+}
+
+.btn.linkedin::before {
+  background-color: #1104cf;
+}
+
+.btn.facebook::before {
+  background-color: #3c58f6;
+}
+
+.btn.github::before {
+  background-color: #000000;
+}
+
+.btn:focus:before,
+.btn:hover:before {
+  top: -10%;
+  left:-10%;
+}
+
+.btn:focus .fa,
+.btn:hover .fa {
+  color: #fff;
+  transform: scale(1);
+}
+
+.social {
+  margin-top: 5px;
+  height: 50px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.social .btn .fa {
+  font-size: 50%;
+  vertical-align: middle;
+}
+
+.social .btn {
+  background-color: transparent;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 8px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.99;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 25%;
+}
+
+.social .btn:before {
+  content: "";
+  width: 120%;
+  height: 8%;
+  position: absolute;
+}
+
+.span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+ /*----- REFLECTION ----- */
+ .reflejo{
+   text-transform: capitalize;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   height: 65vh;
+   background: #000000;
+   margin-top: 10%;
+ }
+
+ .parrafo {
+   font-size: 10rem;
+ }
+
+.texto {
+   color: white;
+}
+
+.reflection {
+  background: linear-gradient(black,rgba(255,255,255,0.3));
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  transform: rotateX(180deg);
+  position: relative;
+  bottom: 34%;
+}
+
+ /*----- CUBE ------*/
+.cuerpo {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube {
+  margin: 10% auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 10s linear infinite;
+  animation-direction: reverse;
+}
+
+.img-cube {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.box1 {
+   transform: translateZ(100px);
+}
+
+.box2 {
+  transform: rotateY(90deg) translateX(100px);
+  transform-origin: right;
+}
+
+.box3 {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.box4 {
+  transform: rotateY(-90deg) translateX(-100px);
+  transform-origin: left;
+}
+
+.box5 {
+  transform: rotateX(-90deg) translateY(-100px);
+  transform-origin: top;
+}
+
+.box6 {
+  transform: rotateX(90deg) translateY(100px);
+  transform-origin: bottom;
+}
+
+@keyframes rotate {
+  0%,100% {
+    transform: rotate(0deg);
+  }
+
+  20% { 
+    transform: rotateY(90deg) rotateZ(90deg);
+  }
+
+  40% {
+    transform: rotateY(180deg) rotateZ(-90deg);
+  }
+
+  60% {
+    transform: rotateY(270deg) rotateZ(90deg);
+  }
+
+  80% {
+    transform: rotateY(360deg) rotateZ(-90deg);
+  }
+}
+
+/*-- ICONS SQUARE --*/
+.fa-github-square {
+  color: #555;
+  font-size: 300%;
+}
+
+.fa-linkedin {
+  color: #034eb1;
+  font-size: 300%;
+}
+
+.fa-instagram-square{
+  color:#c32aa3;
+  font-size: 300%;
+}
+
+.fa-facebook-square {
+  color: #1877f2;
+  font-size: 300%;
+}
+
+/*-- BACKGROUND BLACK --*/
+.black {
+  background-color: black;
+}
+
+.centrar {
+  margin: 0 auto;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-- PHOTOS --*/
+.center-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-foto {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  overflow: hidden;
+}
+
+.box-foto img {
+  width: 50%;
+  height: 50%;
+  margin: 0 0 1% 20%;
+  transition: all .5s;
+}
+
+.content-foto {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.5);
+  flex-direction: column;
+  color: white;
+  clip-path: circle(0% at 50% 50%);
+  transition: all .5s;
+} 
+
+.box-foto:hover .content-foto {
+  clip-path: circle(100% at 50% 50%);
+}
+
+.box-foto:hover img {
+  filter: blur(10px);
+  transform: scale(1.1);
+}
+
+.content-foto p {
+  margin: 10px 0 0 15px;
+}
+
+.arroba {
+  font-size: 2rem;
+  margin-top: 40%;
+}
+
+/*---- DARK MODE ---*/
+label::before {
+  display: block;
+  color:  #ca89f5;
+  content: 'Light-Mode';
+  margin-top: 1rem;
+  font-size: .9rem;
+  font-weight: 800;
+  top: 112%;
+  right: 11%;
+  position: absolute;
+}
+  
+input[type="checkbox"]:checked~label:before {
+  content: 'Dark-Mode';
+}
+  
+input[type="checkbox"]:checked::after {
+  right: 0;
+  left: auto;
+  background: #52cf71;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  content: 'ON';
+}
+
+input[type=checkbox] {
+  z-index: 1;
+  -webkit-appearance: none;
+  width: 5rem;
+  height: 1.6rem;
+  border: 2px solid  #ca89f5;
+  border-radius:  1rem;
+  position: absolute;
+  right: 11%;
+  top: 110%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+input[type="checkbox"]::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: " ";
+  width: 50%;
+  height: 100%;
+  background: #514878;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  content: 'OFF';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+  
+.texto-violeta {
+  color: #ca89f5;
+}
+  
+.lenguaje {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+  
+/*-- NAV_LIST --*/
+.nav-list {
+  display: flex;
+  list-style: none;
+  width: 90vw;
+  padding-right: 2vw;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.nav-list li {
+  position: relative;
+  margin-left: 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  margin: 2.5% 1.7vw;
+  color: #fff;
+  font-weight: 800;
+}
+
+.nav-list li a:hover { 
+  color: #61dafb;
+  text-shadow: 0px 2px 1px #004140,
+               0px 1px 4px rgba(0,0,0,0.1),
+               0px 4px 7px #00A29F
+}
+
+.nav-list li a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0%;
+  top: 25px;
+  background-color: #61dafb;
+  position: absolute;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-list li a:hover::before {
+  width: 67%;
+}
+
+#hamburguer-toggle {
+  display: none;
+}
+
+.hamburguer {
+  width: 30px;
+  height: 30px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  position: absolute;
+  right: 25px;
+}
+
+.hamburguer .bar {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  transition: all .3s;
+}
+
+.hamburguer .bar::before, .hamburguer .bar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all .3s;
+}
+
+.hamburguer .bar::before {
+  transform: translateY(-10px);
+}
+
+.hamburguer .bar::after {
+  transform: translateY(10px);
+}
+
+@media(max-width:600px) {
+    
+    .nav-list{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #9e00ff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-100%);
+      transition: transform .3s;
+    }
+    .nav-list li {
+      margin: 10px 0;
+    }
+    
+    .nav-list li a{
+      display: inline-block;
+      font-size: 20px;
+      padding: 15px 20px;
+      transition: all .3s;
+      align-items: center;
+    }
+    
+    .nav-list li a:hover{
+      background-color: black;
+      color: #9e00ff;
+      transform: translateY(-10px);
+    }
+    
+    .hamburguer {
+      display: flex;
+      z-index: 999;
+    }
+    
+    #hamburguer-toggle:checked ~ .nav-list {
+      transform: none;
+    }
+    
+    #hamburguer-toggle:checked ~ .hamburguer .bar::before {
+      transform: rotate(45deg);
+    }
+    
+    #hamburguer-toggle:checked ~ .hamburguer .bar {
+      background-color: transparent;
+    }
+    
+    #hamburguer-toggle:checked ~ .hamburguer .bar::after {
+      transform: rotate(-45deg);
+    }
+}
+
+.laptop {
+  margin: 10% 0 0 5%;
+}
+
+.reduce {
+  width: 60%;
+}
+
+/*-- BUTTON BORDER --*/
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-border {
+  width: 150px;
+  height: 45px;
+  position: relative;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  transition: all .4s
+}
+
+.button-border:hover {
+  background: #D5DADE;
+  transition-delay: .8s;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.d1, .d2 {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #D5DADE;
+  transform: scaleX(0);
+  transition: all .4s;
+  transition-delay: .4s;
+}
+
+.d1 {
+  top: 0;
+  transform-origin: left;
+}
+
+.d2 {
+  bottom: 0;
+  transform-origin: right;
+}
+
+.button-border:hover .d1, .button-border:hover .d2 {
+  transform: scaleX(1);
+  transition-delay: 0s;
+}
+
+.d3, .d4 {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  background: #D5DADE;
+  transform: scaleY(0);
+  transition: all .4s;
+}
+
+.d3 {
+  left: 0;
+  transform-origin: bottom;
+}
+
+.d4 {
+  right: 0;
+  transform-origin: top;
+}
+
+.button-border:hover .d3, .button-border:hover .d4 {
+  transform: scaleY(1);
+  transition-delay: .4s;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+}
+
+.button-border:hover a {
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  color: #555;
+}
+
+/*-- VIDEO HEADER --*/
+.headervideo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.repo {
+  background:linear-gradient(147deg,#ebd8fb 0%,#3f03ad 74%);
+}
+
+/*-- BACK-FRONT --*/
+.card-180 {
+  perspective: 150rem;
+  position: relative;
+  height: 20rem;
+  max-width: 33%;
+  padding: 2rem; 
+  box-shadow: none;
+  background: none;
+}
+
+.card-side {
+  height: 20rem;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding: 2rem;
+  color: #fff;
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+}
+
+.card-side.front {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg,#0093E9 0%,#80D0C7 100%);
+}
+
+.card-180:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card-180:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+.hr-white {
+  width: 80%;
+  margin: 0 auto;
+}
+/*-- UP-BUTTON --*/
+
+.container-up {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animated-word {
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  color: #202125;
+  max-width: 8rem; 
+  width: 100%; 
+  outline: 3px solid;
+  outline-color: rgba(71, 126, 232,0.5);
+  outline-offset: 10%;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  padding-bottom: 1%;
+  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+  line-height: 1.3;
+}
+
+.animated-word:hover {
+  color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 60px;
+}
+
+/*-- SHADOW --*/
+.shadow-text {
+  text-shadow: 0px 2px 1px #575760,
+                0px 4px 7px rgba(0,0,0,0.1),
+                0px 9px 12px rgba(0,0,0,0.1);
+}
+
+.shadow-text-purple {
+  text-shadow: -1px 1px 0px #6DFCFA,
+                -2px 2px 0px #03D2CF,
+                -3px 3px 0px #005554;
+}
+
+/*-- ENLARGE --*/
+.enlarge {
+  transition: transform .8;
+  transition-duration: all 1s ease-in-out;
+  z-index: 2;
+}
+
+.enlarge:hover {
+  transform: scale(1.05);
+}
+
+.my-logo {
+  filter:drop-shadow(0.15rem 0.15rem 0.1rem rgba(0,0,0,0.5))
+}
+
+.my-bg {
+  background: linear-gradient(#CFD7Cf 0%,#E3E3E3 45%,#D8D8D8 50%,#E3E3E3 55%,#CFD7Cf 100%);
+}
+
+.brackets {
+    font-size: 4rem;
+    font-weight: 900;
+    justify-content: center;
+    align-content: center;
+}
+
+.post-header {
+    background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
+    color:#fff;
+    font-weight: 700;
+}
