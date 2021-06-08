@@ -56,8 +56,8 @@
 
             <section class="reveal fadeInUp text-center mt-3">
                 <div class="autorrellenable">
-                    <span id="text"></span>
-                    <span class="line"></span>
+                    <span id="text">&nbsp</span>
+                    <span class="line invisible" id="line">|</span>
                 </div>
                 <div class="main centro">
                     <div class="box centro img-shadow-white" data-tilt></div>

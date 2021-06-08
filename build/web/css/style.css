@@ -487,7 +487,6 @@ svg{
   justify-content: center;
   align-items: center;
   font-size: 2rem;  
-  min-height: 160%;
 }
 
 #text{
@@ -496,16 +495,7 @@ svg{
 }
 
 .line{
-  animation: anim 0.5 infinite linear ;
-}
-
-@keyframes anim{
-    0%,100%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 0;
-    }
+  font-size: 3rem;
 }
 /*-- Foto con iconos --*/
 
@@ -1336,4 +1326,8 @@ input[type="checkbox"]::after {
     background-image: linear-gradient(43deg,#4158D0 0%,#C850C0 46%,#FFCC70 100%);
     color:#fff;
     font-weight: 700;
+}
+
+.invisible {
+    display: none;
 }
