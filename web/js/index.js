@@ -49,7 +49,7 @@
 
     // Autorrellenable
 
-    var text = ' Puedes ver algunos de mis repositorios abajo '
+    var text = 'Para cualquier duda o sugerencia. Ponte en contacto conmigo '
     var i = 0
     var f = -1
     var k = 1

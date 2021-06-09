@@ -24,8 +24,8 @@
 
  <header class="navigation row" id="header-nav">
             <div class="col-1">
-                <a href="index.jsp" class=" mt-2 ml-5">
-                    <img src="images/logo_blanco.png" alt="LogoGM" class="img-shadow-white">
+               <a href="index.jsp" class=" mt-2 ml-5">
+                    <img src="images/logoGM.PNG" alt="LogoGM" class="my-logo">
                 </a>
             </div>
 
@@ -49,10 +49,8 @@
         <section class="caja" id="header">
             <img src="images/blog6.jpg" alt="Fondo_arriba" class="fondo_arriba mb-5">
         </section>
-        <section class="reflejo">
-            <p class=" parrafo texto">MIS POSTS</p>
-            <p class="parrafo reflection">MIS POSTS</p>
-        </section>
+        
+            <p class="parrafo">Mis post más destacados</p>
 
         <main class="container">
             <section class="text-center mb-5 row" data-color="rgb(20,20,20)">
@@ -82,15 +80,12 @@
                 <% }%>
 
             </section>
-
-
+                
         </main>
-        <div class="boton-arriba">
-            <a href="#header"><i class="fas fa-arrow-up"></i></a>
-        </div>
-        <footer class="row text-center text-secondary border-top border-secondary">
+                
+          <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
-                <img src="images/logo_blanco.png" alt="LogoGM" class="logo_abajo">
+                <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>
 
             <div class="col-12 col-lg-6 mt-2">
@@ -135,6 +130,7 @@
             </div>
 
         </footer>
+
 
         <script src="js/index.js"></script>
         <script src="js/vanilla-tilt.js"></script>

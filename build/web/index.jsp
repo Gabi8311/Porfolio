@@ -194,9 +194,9 @@
             <a href="#header" class="animated-word text-decoration-none"><i class="fas fa-angle-up"></i><br>Volver Arriba</a>
         </div>
 
-        <footer class="row text-center text-secondary border-top border-secondary">
+        <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
-                <img src="images/logoGMAbajo.png" alt="LogoGM" class="logo-abajo">
+                <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>
 
             <div class="col-12 col-lg-6 mt-2">

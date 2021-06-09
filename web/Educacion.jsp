@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educación</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Raleway:wght@300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/all.js"></script>
-    <script src="https://kit.fontawensome.com/dd8c49730d.js" crossorigin="anonymous"></script>
-</head>
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+              integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Raleway:wght@300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/all.js"></script>
+        <script src="https://kit.fontawensome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+    </head>
 
+    <body class="my-bg" id="body">
 
-<body class="bg-light" id="body2">
+        <div class="fake-bg"></div>
 
-    <div class="fake-bg"></div>
-
-     <header class="navigation row" id="header-nav">
+        <header class="navigation row" id="header-nav">
             <div class="col-1">
                 <a href="index.jsp" class=" mt-2 ml-5">
-                    <img src="images/logo_blanco.png" alt="LogoGM" class="img-shadow-white">
+                    <img src="images/logoGM.PNG" alt="LogoGM" class="my-logo">
                 </a>
             </div>
 
@@ -34,7 +33,7 @@
                     <span class="bar"></span>
                 </label>
 
-                <ul class="nav-list text-danger shadow-text">
+                <ul class="nav-list shadow-text">
                     <li><a href="Educacion.jsp" class="">Educación</a></li>
                     <li><a href="Repos_request" class="" >Proyectos</a></li>
                     <li><a href="Experiencia.jsp" class="">Experiencia</a></li>
@@ -44,7 +43,6 @@
 
             </nav>
         </header>    
-    
     
     <section class="caja" id="header">
         <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5">
@@ -98,9 +96,9 @@
     </main>
 
 
-    <footer class="row text-center text-secondary border-top border-secondary">
+    <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
-                <img src="images/logo_blanco.png" alt="LogoGM" class="logo_abajo">
+                <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>
 
             <div class="col-12 col-lg-6 mt-2">
