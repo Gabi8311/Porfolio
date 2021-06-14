@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/proyecto_di_ad?serverTimezone=UTC</property><!--El nombre de la BBDD-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/porfolio?serverTimezone=UTC</property><!--El nombre de la BBDD-->
         <property name="hibernate.connection.useSSL">false</property>
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>

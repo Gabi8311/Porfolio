@@ -6,11 +6,16 @@
             <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/index.jsp</file>
             <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Educacion.jsp</file>
             <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/js/index.js</file>
-            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Proyectos.jsp</file>
-            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/css/style.css</file>
-            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Experiencia.jsp</file>
-            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Post.jsp</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/consultas/ConsultasIniciales.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/consultas/Post_request.java</file>
             <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Blog.jsp</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/hibernate/Persona.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/hibernate/Comentario.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/consultas/Comments_request.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/hibernate/Articulo.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/src/java/consultas/Repos_request.java</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/css/style.css</file>
+            <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Post.jsp</file>
             <file>file:/C:/Users/gabri/OneDrive/Documentos/NetBeansProjects/Porfolio/web/Contacto.jsp</file>
         </group>
     </open-files>

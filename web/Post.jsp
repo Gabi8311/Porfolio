@@ -75,6 +75,15 @@
                     </div>
                 </div>
             </section>
+                     <div class="main-button center-button">
+                            <div class="button-border center-button">
+                                <a href="Post_request" class="text-decoration-none fs-6">Volver<i class="fas fa-sign-out-alt ml-2"></i></a>
+                                <div class="d1"></div>
+                                <div class="d2"></div>
+                                <div class="d3"></div>
+                                <div class="d4"></div>
+                            </div>
+                        </div>
         </main>
     </body>
 

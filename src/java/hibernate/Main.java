@@ -1,4 +1,3 @@
-
 package hibernate;
 
 import java.util.HashSet;
@@ -11,7 +10,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
  *
- * @author gabri
+ * @author Gabriel Moreno
  */
 public class Main {
     
@@ -33,11 +32,7 @@ public class Main {
         Repositorio repo = new Repositorio( "Calle Tintín y Milú", "Madrid",3,lenguajes);
         
         Session sesion = sessionFactory.openSession();
-
-        //Repositorio repo2 = (Repositorio) sesion.get(Repositorio.class, 1);//Esto es un select
-
       
-    
         sesion.beginTransaction();
         sesion.save(repo);
         sesion.getTransaction().commit();

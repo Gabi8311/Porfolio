@@ -26,14 +26,17 @@ public class Persona implements Serializable{
     private String nombre;
     @Column(name = "definicion")
     private String definicion;
+    @Column(name = "link_foto")
+    private String link_foto;
    
     
     public Persona() {
     }
 
-    public Persona(String nombre, String definicion) {
+    public Persona(String nombre, String definicion, String link_foto) {
         this.nombre = nombre;
         this.definicion = definicion;
+        this.link_foto = link_foto;
     }
 
     public String getNombre() {
@@ -59,6 +62,14 @@ public class Persona implements Serializable{
     public void setId_admin(Integer id_admin) {
         this.id_persona = id_persona;
     } 
+
+    public String getLink_foto() {
+        return link_foto;
+    }
+
+    public void setLink_foto(String link_foto) {
+        this.link_foto = link_foto;
+    }
     
     @Override
     public String toString() {

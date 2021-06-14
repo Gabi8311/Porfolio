@@ -21,7 +21,7 @@ import javax.persistence.Table;
 @Table(name = "Articulos")
 public class Articulo implements Serializable {
     @Id
-    @Column(name = "id_articulo")
+    @Column(name = "id_articulos")
     @GeneratedValue(strategy=GenerationType.IDENTITY) 
     private Integer id_articulo;
     @Column(name = "titulo")
@@ -84,7 +84,7 @@ public class Articulo implements Serializable {
 
     @Override
     public String toString() {
-        return "Articulo --> ID" + this.id_articulo + ", Titulo:" + this.titulo + "\n Texto: " + this.texto + "\n Fecha: " + this.fecha + ",Categorias:" + this.categorias;
+        return "Articulo --> ID" + this.id_articulo + ", Título:" + this.titulo + "\n Texto: " + this.texto + "\n Fecha: " + this.fecha + ",Categorías:" + this.categorias;
     }
     
     

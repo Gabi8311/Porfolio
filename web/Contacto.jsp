@@ -81,19 +81,17 @@
                 </g>
                 </svg>
             </div>
-        <section class="row mb-5">
-            <div class="col-4 laptop">
-                <img src="images/portatil-apple.png" alt="LogoGM" class="img-fluid">
+        <section class="row mb-5 section-contacto">
+            <div class="col laptop">
+                <img src="images/portatil-apple.png" alt="LogoGM" class="img-fluid reflection">
             </div>
-            <div class=" align-items-center col-4" >
-               <div class="autorrellenable">
-                    <span id="text">&nbsp</span>
-                    <span class="line invisible" id="line">|</span>
-                </div>
+           
+            <div class=" align-items-center col" >
+                 <img src="https://www.pngkit.com/png/full/408-4085886_imac-computadora-mac-computadoras-circuitos-indices-imac-27.png" alt="Computer" class="img-fluid reflection">
             </div>
 
             <div class="col">
-                <img src="images/iphone.png" alt="LogoGM" class="img-fluid">
+                <img src="images/iphone.png" alt="LogoGM" class="img-fluid reflection">
             </div>
         </section>
 

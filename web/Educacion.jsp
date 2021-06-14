@@ -16,7 +16,7 @@
         <script src="https://kit.fontawensome.com/dd8c49730d.js" crossorigin="anonymous"></script>
     </head>
 
-    <body class="my-bg" id="body">
+    <body class="bg-educacion" id="body">
 
         <div class="fake-bg"></div>
 

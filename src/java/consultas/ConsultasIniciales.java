@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package consultas;
 
 import hibernate.Comentario;
@@ -17,19 +12,14 @@ import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
  *
- * @author gabri
+ * @author Gabriel Moreno
  */
 public class ConsultasIniciales {
+    public static void obtenerComentarios(){
+        
+    } 
 
     public static void insertComentarios() {
-
-        Persona p1 = new Persona("Elon Musk", "Emprendedor,Magnate,Inventor");
-        Persona p2 = new Persona("Bill Gates", "Fundador de Microsoft");
-        Persona p3 = new Persona("Mark Zuckerberg", "Programador,Empresario,Fundador de Facebook");
-
-        Comentario c1 = new Comentario("Este chaval viene muy fuerte.Es el próximo yo,pero en pobre", p1);
-        Comentario c2 = new Comentario("Necesitamos en el mundo más gente como este chico", p2);
-        Comentario c3 = new Comentario("Estoy esperando que acabe el Grado Superior para hacerle una oferta", p3);
 
         SessionFactory sessionFactory;
         Configuration configuracion = new Configuration();
@@ -42,8 +32,20 @@ public class ConsultasIniciales {
         sessionFactory = configuracion.buildSessionFactory(serviceRegistry);//Crear el pool de sessiones que nos permite crear sesiones individuales
 
         Session sesion = sessionFactory.openSession();
-
         sesion.beginTransaction();
+        Persona p1 = new Persona("Elon Musk", "Emprendedor, Magnate, Inventor","https://pngclick.com/Guest/images/Png/41.png");
+        Persona p2 = new Persona("Bill Gates", "Fundador de Microsoft","https://lh3.googleusercontent.com/proxy/ezEj5s7bYZuYJMMxCAbLdk4HkfJFh-EkIwRyTp6v6G7wh78fxa2LdZUIVYDWYWdMZ1AFSIVhbeQoiVXng1Cf8dfm4NrJOxZdU9qhEXzIv6kteFPZJW7JVhFfkMfO");
+        Persona p3 = new Persona("Mark Zuckerberg", "Programador, Empresario, Fundador de Facebook","https://pngpress.com/wp-content/uploads/2020/09/uploads_mark_zuckerberg_mark_zuckerberg_PNG26.png");
+        System.out.println(p1);
+        
+        sesion.save(p1);
+        sesion.save(p2);
+        sesion.save(p3);
+        
+        Comentario c1 = new Comentario("Este chaval viene muy fuerte. Es el próximo yo, pero en pobre", p1);
+        Comentario c2 = new Comentario("Necesitamos en el mundo más gente como este chico", p2);
+        Comentario c3 = new Comentario("Estoy esperando que acabe el Grado Superior para hacerle una oferta", p3);
+        
         sesion.save(c1);
         sesion.save(c2);
         sesion.save(c3);
@@ -91,6 +93,7 @@ public class ConsultasIniciales {
         Session sesion = sessionFactory.openSession();
 
         sesion.beginTransaction();
+        
 
         Query query = sesion.createQuery("SELECT c FROM Comentario c");
         List<Comentario> comments = query.list();
@@ -98,7 +101,12 @@ public class ConsultasIniciales {
         for (Comentario c : comments) {
             sesion.delete(c);
         }
+        Query query_personas = sesion.createQuery("SELECT p FROM Persona p");
+        List<Persona> comments_persona = query_personas.list();
 
+        for (Persona p : comments_persona) {
+            sesion.delete(p);
+        }
         sesion.getTransaction().commit();
 
         sesion.close();

@@ -57,20 +57,18 @@
         <label for="switch"></label>
         <main class="container my-5" id="main">
 
-            <section class="about" id="about">
+            <section class="section" id="about">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-6">
-                        <img src="images/mi_foto.png" alt="Mi_foto" class="fadeInUp" data-delay="800ms">
+                    <div class="col">
+                        <img src="images/miFoto.jpg" alt="Mi_foto" class="fadeInUp mi-foto" data-delay="800ms">
                     </div>
 
-                    <div class="col-sm-4 text-center text-white shadow-text-purple" data-delay="800ms">
+                    <div class="col text-center text-white shadow-text-purple" data-delay="800ms">
                         <h1 class="font-weight-bold">Desarrollador, <br> Diseñador Web & Móvil</h1>
                         <h2 class="mt-3 font-weight-bolder">Técnico Superior DAM <br>Ironhacker</h2>
                     </div>
                 </div>
             </section>
-
-            <hr class="aire">
 
             <section class="container row align-items-center p-3 text-center reveal fadeInLeft">
                 <div class="col-12 col-lg-6">
@@ -166,14 +164,13 @@
 
             <hr class="aire">
             <section class="row text-center ml-5 pl-2">
-                <%  ConsultasIniciales.insertComentarios();
-                    List<Comentario> comentarios = ConsultasIniciales.selectComentarios();
+                <% List<Comentario> comentarios = ConsultasIniciales.selectComentarios();
                     for (Comentario comentario : comentarios) {%>
                 <div class="card-180 col">
                     <div class="card-side front">
                         <div class="content">
                             <h4><i class="fas fa-quote-left mr-2 reduce"></i><%=comentario.getTexto()%> <i class="fas fa-quote-right ml-2 reduce"></i></h4>
-                            <img src="https://pngclick.com/Guest/images/Png/41.png" class="reduce"/>
+                            <img src="<%=comentario.getPersona().getLink_foto()%>" class="reduce"/>
                         </div>
                     </div>
                     <div class="card-side back">
@@ -187,7 +184,6 @@
                 <%}%>
             </section>
 
-            <%ConsultasIniciales.truncate_table();%>
         </main>
 
         <div class="container-up">
