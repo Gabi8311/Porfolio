@@ -4,7 +4,7 @@
  <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Educación</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -71,7 +71,7 @@
             </div>
 
         </section>
-        <section class="my-5">
+        <section class="my-5 section-educacion">
             <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%; max-height: 10%;">
                 <div class="row g-0">
                     <div class="col-md-3 mt-4 reveal fadeInUp">
@@ -145,7 +145,6 @@
         </footer>
 
         <script src="js/index.js"></script>
-        <script src="js/vanilla-tilt.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>

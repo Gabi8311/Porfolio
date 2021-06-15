@@ -60,11 +60,12 @@
             <section class="section" id="about">
                 <div class="row justify-content-center align-items-center">
                     <div class="col">
-                        <img src="images/miFoto.jpg" alt="Mi_foto" class="fadeInUp mi-foto" data-delay="800ms">
+                        <img src="images/mi_foto.png" alt="Mi_foto" class="fadeInUp mi-foto" data-delay="800ms">
                     </div>
 
-                    <div class="col text-center text-white shadow-text-purple" data-delay="800ms">
-                        <h1 class="font-weight-bold">Desarrollador, <br> Diseñador Web & Móvil</h1>
+                    <div class="col text-center text-white" data-delay="800ms">
+                         <h1 class="font-weight-bold">GABRIEL MORENO</h1>
+                        <h1 class="font-weight-bold mt-5">Desarrollador, <br> Diseñador Web & Móvil</h1>
                         <h2 class="mt-3 font-weight-bolder">Técnico Superior DAM <br>Ironhacker</h2>
                     </div>
                 </div>
@@ -76,12 +77,12 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <h4 class="h4 mb-3"><span class="brackets align-middle">{</span> Educación <span class="brackets align-middle">}</span></h4>
-                    <p class="font-weight-bolder">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                    <p class="paragraph">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
                         profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
                         animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
                         psicológicas.</p>
                     <div class="contenedor">
-                        <a href="Educacion.jsp" class="font-weight-bolder">Ver más</a><i class="fas fa-user-graduate ml-3"></i>
+                        <a href="Educacion.jsp" class="font-weight-bold">Ver más</a><i class="fas fa-user-graduate ml-3"></i>
                         <div class="bg"></div>
                     </div>
                 </div>
@@ -92,12 +93,12 @@
             <section class="row align-items-center p-3 text-center reveal fadeInRight">
                 <div class="col-12 col-lg-6">
                     <h4 class="h4 mb-3"><span class="brackets align-middle">{</span> Proyectos <span class="brackets align-middle">}</span></h4>
-                    <p>"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                    <p class="paragraph">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
                         profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
                         animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
                         psicológicas.</p>
                     <div class="contenedor">
-                        <a href="Proyectos.jsp">Ver más</a><i class="fas fa-laptop-code ml-3"></i>
+                        <a href="Proyectos.jsp" class="font-weight-bold">Ver más</a><i class="fas fa-laptop-code ml-3"></i>
                         <div class="bg"></div>
                     </div>
                 </div>
@@ -114,12 +115,12 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <h4 class="h4 mb-3"><span class="brackets align-middle">{</span> Habilidades <span class="brackets align-middle">}</span></h4>
-                    <p>"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                    <p class="paragraph">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
                         profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
                         animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
                         psicológicas.</p>
                     <div class="contenedor">
-                        <a href="Experiencia.jsp">Ver más</a><i class="fas fa-code ml-3"></i>
+                        <a href="Experiencia.jsp" class="font-weight-bold">Ver más</a><i class="fas fa-code ml-3"></i>
                         <div class="bg"></div>
                     </div>
                 </div>
@@ -129,13 +130,13 @@
 
                 <div class="row align-items-center text-center change-background" data-color="rgb(20,20,20)">
                     <div class="col-12 col-lg-6">
-                        <h4 class="h4 mb-3"><span class="brackets align-middle">{</span> Blog <span class="brackets align-middle">}</span></h4>
-                        <p>"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                        <h4 class="h1 mb-3 font-weight-bold"><span class="brackets align-middle">{</span> BLOG <span class="brackets align-middle">}</span></h4>
+                        <p class="paragraph text-white">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
                             profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
                             animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
                             psicológicas.</p>
                         <div class="contenedor">
-                            <a href="Blog.jsp">Ver más</a><i class="far fa-edit ml-3"></i>
+                            <a href="Blog.jsp" class="font-weight-bold">Ver más</a><i class="far fa-edit ml-3"></i>
                             <div class="bg"></div>
                         </div>
                     </div>
@@ -145,18 +146,18 @@
                 </div>
             </section>
 
-            <section class="row align-items-center p-3 text-center reveal fadeInLeft text-dark">
+            <section class="row align-items-center p-3 text-center reveal fadeInLeft">
                 <div class="col-12 col-lg-6">
                     <img src="https://img.freepik.com/foto-gratis/imagen-primer-plano-manos-masculinas-smartphone-icono-telefono-correo-electronico-telefono-movil-direccion-contactenos-conexion-concepto-marketing-correo-electronico_20693-316.jpg?size=626&ext=jpg" alt="Foto_contacto" class="rounded img-fluid img-shadow reduce">
                 </div>
                 <div class="col-12 col-lg-6">
                     <h4 class="h4 mb-3 "><span class="brackets align-middle">{</span> Contacto <span class="brackets align-middle">}</span></h4>
-                    <p>"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
+                    <p class="paragraph">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
                         profesional y no en tener familia. Por eso quieren llenar ese vacío con los animales. Pero los
                         animales se sienten incompletos porque no son seres humanos y tienen otras necesidades físicas y
                         psicológicas.</p>
                     <div class="contenedor ">
-                        <a href="Contacto.jsp">Ver más</a><i class="fas fa-mobile-alt ml-3"></i>
+                        <a href="Contacto.jsp" class="font-weight-bold">Ver más</a><i class="fas fa-mobile-alt ml-3"></i>
                         <div class="bg"></div>
                     </div>
                 </div>
@@ -187,7 +188,7 @@
         </main>
 
         <div class="container-up">
-            <a href="#header" class="animated-word text-decoration-none"><i class="fas fa-angle-up"></i><br>Volver Arriba</a>
+            <a href="#header" class="animated-word text-decoration-none text-secondary"><i class="fas fa-angle-up"></i><br>Volver Arriba</a>
         </div>
 
         <footer class="row text-center border-top border-secondary">
@@ -196,7 +197,7 @@
             </div>
 
             <div class="col-12 col-lg-6 mt-2">
-                <h3>Mi Porfolio</h3>
+                <h3 class="font-weight-bold">Mi Porfolio</h3>
                 <h6 class="my-2 span">© Gabriel Moreno</h6>
                 <h6 class="span">2021 | Madrid | Diseñador de Aplicaciones Multiplataforma</h6>
             </div> 
@@ -219,12 +220,12 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header text-dark text-center">
-                                    <h4 class="modal-title" id="exampleModalLabel">Contacto</h4>
+                                    <h4 class="modal-title font-weight-bold" id="exampleModalLabel">Contacto</h4>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body text-dark"><i class="fas fa-mobile-alt mr-2"></i>
+                                <div class="modal-body text-dark font-weight-bolder"><i class="fas fa-mobile-alt mr-2"></i>
                                     Móvil: 629-504-333
                                     <br><i class="far fa-envelope mr-2"></i>
                                     gabidam1920@gmail.com
@@ -239,7 +240,6 @@
         </footer>
 
         <script src="js/index.js"></script>
-        <script src="js/vanilla-tilt.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>

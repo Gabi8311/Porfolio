@@ -4,7 +4,7 @@
    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Contacto</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -49,10 +49,10 @@
         </section>
 
         <!--Nuevo RRSS-->
-        <section>
+        <section class="section-members">
             
             <div class="team-member text-center my-5">
-                <img src="images/miFoto.PNG" alt="Mi_Foto">
+                <img src="images/miFoto.jpg" alt="Mi_Foto">
                 <div class="social-media-icons">
                     <a href="https://www.linkedin.com/in/gabriel-moreno-fernandez/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
                     <a href="https://github.com/Gabi8311" target="_blank"><i class="fab fa-github fa-2x"></i></a>
@@ -144,7 +144,7 @@
         </footer>
 
         <script src="js/index.js"></script>
-        <script src="js/vanilla-tilt.js"></script>
+        <script src="js/contacto.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>

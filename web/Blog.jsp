@@ -65,7 +65,7 @@
                         <% }%>
                     </div>
                     <div class="card-body bg-light">
-                        <h5 class="card-title"><%=post.getTitulo()%></h5>
+                        <h5 class="card-title font-weight-bold text-secondary"><%=post.getTitulo()%></h5>
 
                         <div class="main-button center-button">
                             <div class="button-border center-button">
@@ -133,7 +133,6 @@
 
 
         <script src="js/index.js"></script>
-        <script src="js/vanilla-tilt.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>
