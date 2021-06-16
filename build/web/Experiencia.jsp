@@ -75,7 +75,7 @@
             </section>
 
 
-            <section class=" my-5 container-fluid ml-3" id="about">
+            <section class=" my-5 container-fluid ml-3 section-padding" id="about">
                 <div class="row justify-content-center align-items-center about">
                     
                     <div class="box-foto col-xl-3 col-sm-6">

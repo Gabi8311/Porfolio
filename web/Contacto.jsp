@@ -67,7 +67,7 @@
             </div>
         </section>
 
- <div class="gm_svg" id="svg">
+            <div class="gm_svg" id="svg">
                 <svg viewBox="0 0 960 300">
                 <symbol id="main-text">
                     <text text-anchor="middle" x="50%" y="80%">Gabriel Moreno</text>
@@ -81,6 +81,7 @@
                 </g>
                 </svg>
             </div>
+        
         <section class="row mb-5 section-contacto">
             <div class="col laptop">
                 <img src="images/portatil-apple.png" alt="LogoGM" class="img-fluid reflection">

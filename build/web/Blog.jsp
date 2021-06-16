@@ -52,7 +52,7 @@
         
             <p class="parrafo">Mis post más destacados</p>
 
-        <main class="container">
+        <main class="container section-padding">
             <section class="text-center mb-5 row" data-color="rgb(20,20,20)">
                 <% List<Articulo> posts = (List) request.getSession().getAttribute("posts");%>
                 <%for (Articulo post : posts) {%>

@@ -152,7 +152,7 @@ footer {
   border-color: lightslategray;
 }
 
-  /*-- Gabriel Moreno Header --*/
+  /*-- GABRIEL MORENO HEADER CONTACT --*/
 svg{
   display: block;
   font: 7.5em 'Montserrat';
@@ -301,7 +301,6 @@ svg{
   padding: 20px 0;
   z-index: 9999;
   transition: all .3s;
-  font-family: 'Raleway', sans-serif;
 }
 
 .navigation.sticky {
@@ -363,49 +362,6 @@ svg{
 }
 
 /*-- PARALLAX --*/
-/**/
-/*-- New tilt.js --*/
-.box-repo {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32rem;
-  height: 20rem;
-  background: linear-gradient(60deg,#8E36D6,#D61F76);
-  transform: perspective(1000px);
-  transform-style: preserve-3d;
-  border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.20),
-              0 15px 12px rgba(0,0,0,0.15);
-  transition: all 180ms ease-out;
-}
-
-.box-repo h1 {
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: 600;
-  text-shadow: 0 0 22px rgba(0,0,0,0.6);
-  transform: translateZ(40px);
-}
-
-.circle {
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-}
-
-.circle span {
-  display: inline-flex;
-  width: 0.5rem;
-  height: 0.5rem;
-  margin: 0 0.1rem;
-  border-radius: 25px;
-  background: #ffffff;
-  box-shadow: 0 0 22px rgba(0,0,0,0.7);
-  transform: translateZ(40px);
-}
-/**/
 .centro{
   display: flex;
   justify-content: center;
@@ -438,7 +394,6 @@ svg{
               0 15px 12px rgba(0,0,0,0.15);
   transition: all 180ms ease-out;
 }
-
 
 .circle {
   position: absolute;
@@ -474,7 +429,7 @@ svg{
 }
 
 .box::after{
-  content: 'Gabi';
+  content: 'Repos';
   position: absolute;
   width: 150px;
   height: 150px;
@@ -486,7 +441,6 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway',sans-serif;
   transform: translateZ(0px);
   transition: all 1s;
 }
@@ -511,7 +465,6 @@ svg{
 .contenedor a{
   color: #ba70ff;
   text-decoration: none;
-  font-family: "Raleway",sans-serif;
 }
 
 .contenedor i{
@@ -572,7 +525,6 @@ svg{
 /*-- Foto con iconos --*/
 
 .section-members {
-  background-color:  #DEE0DE;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -773,7 +725,7 @@ i {
 }
 
 .span {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -1281,7 +1233,7 @@ input[type="checkbox"]::after {
 }
 
 /*-- VIDEO HEADER --*/
-.headervideo{
+/*.headervideo{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1289,7 +1241,7 @@ input[type="checkbox"]::after {
   top: 0;
   left: 0;
   z-index: -1;
-}
+}*/
 
 .text-bold {
   font-weight: 800;
@@ -1414,11 +1366,11 @@ input[type="checkbox"]::after {
 }
 
 .my-logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .my-bg {
-  background: linear-gradient(#CFD7Cf 0%,#E3E3E3 45%,#D8D8D8 50%,#E3E3E3 55%,#CFD7Cf 100%);
+  background: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
 }
 
 .brackets {
@@ -1436,26 +1388,21 @@ input[type="checkbox"]::after {
 }
 
 .invisible {
-    display: none;
+  display: none;
 }
 
 .mi-foto{
-    filter: grayscale(1);
-    width: 65%;
-    margin: 14.2% 10% 10% 14.5%;
-    border-radius: 5%;
+  width: 70%;
+  filter:drop-shadow(0 0 1.2rem #fff);
+  
 }
 
-.section {
-  margin:0 0 20% 0;
+.section, .section-contacto{
+  padding:0 0 20% 0;
 }
 
-.section-contacto {
-  padding-bottom: 20%;
-}
-
-.section-educacion {
-  padding-bottom: 10%;
+.section-padding {
+  padding: 0 0 5% 0;
 }
 
 .bg-educacion {
@@ -1475,7 +1422,7 @@ input[type="checkbox"]::after {
   transform: translate(-50%, 50%);
   text-transform: uppercase;
   font-size: 2.8rem;
-  color: #e5e5e5;
+  color: #DDDCD7;
   text-shadow: 1px 1px 1px #818181,
                1px 2px 1px #818181,
                1px 3px 1px #818181,
@@ -1497,3 +1444,89 @@ input[type="checkbox"]::after {
   font-weight: 600;
   color: #818181;
 }
+
+/*-- HEADER-HOME --*/
+.header-home {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;  
+  padding-bottom: 10%;
+}
+
+.animated-area {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(152deg,#38016E 50%,#111 50%);;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.animated-area span {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 200px;
+  background-image: linear-gradient(to bottom,transparent,#fff);
+  animation: shower 4s linear infinite;
+}
+
+@keyframes shower {
+    from {
+        transform: translateY(-50%);
+    }
+    
+    to {
+        transform: translateY(500%);
+    }
+}
+ /*-- HEADER BACKGROUND --*/
+
+.h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 8rem;
+  color: transparent;
+}
+
+.h1::before, .h1::after {
+  content: attr(data-text);
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.h1::before {
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 72.5% 0,27.5% 100%, 0 100%);
+  color:#111;
+}
+
+.h1::after {
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 72.5% 0,27.5% 100%, 100% 100%);
+  color: #38016E;
+}
+/**/
+.p-blog {
+  font-size: 2.5rem;
+}
+/**/
+.main-padding {
+    padding-top: 45%;
+}
+/**/

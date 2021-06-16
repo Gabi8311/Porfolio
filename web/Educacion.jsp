@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Educación</title>
@@ -43,60 +43,60 @@
 
             </nav>
         </header>    
-    
-    <section class="caja" id="header">
-        <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5">
-    </section>
-    
-    
-    <main class="container my-5">
-        <section>
-            <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%;">
-                <div class="row g-0">
-                    <div class="col-md-3 mt-5 reveal fadeInUp">
-                        <img src="images/gmq_logo.jpg" alt="Logo_GMQ" class=" mt-4 ml-3">
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body reveal fadeInRight text-center">
-                            <h2 class="card-title fw-bolder mt-4 mb-2">GMQ TECH</h2>
-                            <hr class="hr">
-                            <h3 class="card-text my-4">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
-                            <h4 class="card-text mt-4"><small class="text-muted">Cursando prácticas en Everis Spain S.L.</small></h4>
+
+        <section class="caja" id="header">
+            <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5">
+        </section>
+
+
+        <main class="container mt-5 section-padding">
+            <section class="pb-3">
+                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%;">
+                    <div class="row g-0">
+                        <div class="col-md-3 mt-5 reveal fadeInUp">
+                            <img src="images/gmq_logo.jpg" alt="Logo_GMQ" class=" mt-4 ml-3">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body reveal fadeInRight text-center">
+                                <h2 class="card-title fw-bolder mt-4 mb-2">GMQ TECH</h2>
+                                <hr class="hr">
+                                <h3 class="card-text my-4">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+                                <h4 class="card-text mt-4"><small class="text-muted">Prácticas cursadas en Everis NTT DATA Company</small></h4>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card-body ml-2">
-                    <a href="https://www.gmqtech.es/" class="card-link ml-5" target="_blank">Visita su Web</a>
-                </div>
-            </div>
-
-        </section>
-        <section class="my-5 section-educacion">
-            <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%; max-height: 10%;">
-                <div class="row g-0">
-                    <div class="col-md-3 mt-4 reveal fadeInUp">
-                        <img src="https://img.emg-services.net/institutes/institute29142/logos/logo.png" alt="Logo_Ironhack" class="mt-5 ml-4">
+                    <div class="card-body ml-2">
+                        <a href="https://www.gmqtech.es/" class="card-link ml-5" target="_blank">Visita su Web</a>
                     </div>
-                    <div class="col-md-9">
-                        <div class="card-body reveal fadeInRight text-center">
-                            <h2 class="card-title fw-bolder mt-4 mb-2">IRONHACK</h2>
-                            <hr class="hr">
-                            <h3 class="card-text my-4">Web Development Bootcamp IronHack</h3>
-                            <h4 class="card-text mt-4"><small class="text-muted">FullStack Javascript Developer</small></h4>
+                </div>
+            </section>
+
+            <section class="my-5">
+                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%; max-height: 10%;">
+                    <div class="row g-0">
+                        <div class="col-md-3 mt-4 reveal fadeInUp">
+                            <img src="https://img.emg-services.net/institutes/institute29142/logos/logo.png" alt="Logo_Ironhack" class="mt-5 ml-4">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body reveal fadeInRight text-center">
+                                <h2 class="card-title fw-bolder mt-4 mb-2">IRONHACK</h2>
+                                <hr class="hr">
+                                <h3 class="card-text my-4">Web Development Bootcamp IronHack</h3>
+                                <h4 class="card-text mt-4"><small class="text-muted">FullStack Javascript Developer</small></h4>
+                            </div>
                         </div>
                     </div>
+                    <div class="card-body ml-1">
+                        <a href="https://www.credential.net/d82b2a4e-8a06-44b6-a9a5-1f1f30cd2a3d#gs.tlv3fu" class="card-link mr-3" target="_blank">Certificación</a>
+                        |
+                        <a href="https://www.ironhack.com/es" class="card-link" target="_blank">Visita su Web</a>
+                    </div>
                 </div>
-                <div class="card-body ml-1">
-                    <a href="https://www.credential.net/d82b2a4e-8a06-44b6-a9a5-1f1f30cd2a3d#gs.tlv3fu" class="card-link mr-3" target="_blank">Certificación</a>
-                 |
-                    <a href="https://www.ironhack.com/es" class="card-link" target="_blank">Visita su Web</a>
-                </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
 
-    <footer class="row text-center border-top border-secondary">
+        <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
                 <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>

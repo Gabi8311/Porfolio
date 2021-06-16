@@ -56,7 +56,7 @@
             <img src="images/reader.jpg" alt="Fondo_arriba" class="fondo_arriba">
         </section>
 
-        <main class="container">
+        <main class="container section-padding">
 
             <section class="text-center container my-5" data-color="rgb(20,20,20)">
                 <% Articulo post = (Articulo) request.getSession().getAttribute("articulo");%>
@@ -86,9 +86,7 @@
                             </div>
                         </div>
         </main>
-    </body>
-
-
+    
     <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
                 <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">

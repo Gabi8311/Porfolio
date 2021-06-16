@@ -57,26 +57,17 @@
             <section class="reveal fadeInUp text-center mt-3">
                 <div class="main">
                     <div class="box img-shadow-white" data-tilt>
-                         <div class="circle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                        <div class="circle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
                     </div>
-                   
-                </div>
                 </div>
             </section>
 
-            <section class="box-repo">
-                <h1>Hello madarfakar</h1>
-                <div class="circle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </section>
-
-            <section class="change-background text-center container my-5" data-color="rgb(20,20,20)">
+            <section class="change-background text-center container my-5 section-padding" data-color="rgb(20,20,20)">
                 <div class="row">
 
                     <% List<Repositorio> repos = (List) request.getSession().getAttribute("repos");%>
@@ -91,7 +82,7 @@
                             <hr>
                             <div class="row">
                                 <%for (Lenguaje lenguaje : repo.getLenguajes()) {
-                                   if (lenguaje.getNombre().equalsIgnoreCase("Javascript")) {%>
+                                        if (lenguaje.getNombre().equalsIgnoreCase("Javascript")) {%>
                                 <i class="fab fa-js-square fa-3x m-1  pb-2 col"></i>
                                 <%} else if (lenguaje.getNombre().equalsIgnoreCase("Java")) {%>
                                 <i class="fab fa-java lenguaje fa-3x m-1 pb-2 col"></i>
