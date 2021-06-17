@@ -44,7 +44,9 @@
                 </ul>
 
             </nav>
-        </header>    
+        </header>  
+        
+        <div class="cursor"></div>
 
         <section class="caja" id="header">
             <img src="images/blog6.jpg" alt="Fondo_arriba" class="fondo_arriba mb-5">

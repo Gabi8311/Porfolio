@@ -50,7 +50,9 @@
                 </ul>
 
             </nav>
-        </header>    
+        </header>  
+        
+         <div class="cursor"></div>
 
         <section class="caja" id="header">
             <img src="images/reader.jpg" alt="Fondo_arriba" class="fondo_arriba">

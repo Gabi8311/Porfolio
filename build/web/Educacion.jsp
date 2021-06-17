@@ -42,7 +42,9 @@
                 </ul>
 
             </nav>
-        </header>    
+        </header>   
+        
+        <div class="cursor"></div>
 
         <section class="caja" id="header">
             <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5">

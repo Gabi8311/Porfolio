@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto</title>
@@ -43,6 +43,8 @@
 
             </nav>
         </header>    
+        
+        <div class="cursor"></div>
 
         <section class="caja" id="header">
             <img src="images/contacto5.jpg" alt="Fondo_arriba" class="fondo_arriba mb-5">
@@ -50,7 +52,7 @@
 
         <!--Nuevo RRSS-->
         <section class="section-members">
-            
+
             <div class="team-member text-center my-5">
                 <img src="images/miFoto.jpg" alt="Mi_Foto">
                 <div class="social-media-icons">
@@ -67,28 +69,34 @@
             </div>
         </section>
 
-            <div class="gm_svg" id="svg">
-                <svg viewBox="0 0 960 300">
-                <symbol id="main-text">
-                    <text text-anchor="middle" x="50%" y="80%">Gabriel Moreno</text>
-                </symbol>
-                <g class="g-ants">
-                <use xlink:href="#main-text" class="text-dash"></use>
-                <use xlink:href="#main-text" class="text-dash"></use>
-                <use xlink:href="#main-text" class="text-dash"></use>
-                <use xlink:href="#main-text" class="text-dash"></use>
-                <use xlink:href="#main-text" class="text-dash"></use>
-                </g>
-                </svg>
-            </div>
+        <div class="autorrellenable h4">
+            <span id="text">&nbsp</span>
+            <span class="line" id="line">|</span>
+        </div>
         
+        <div class="gm_svg" id="svg">
+            <svg viewBox="0 0 960 300">
+            <symbol id="main-text">
+                <text text-anchor="middle" x="50%" y="80%">Gabriel Moreno</text>
+            </symbol>
+            <g class="g-ants">
+            <use xlink:href="#main-text" class="text-dash"></use>
+            <use xlink:href="#main-text" class="text-dash"></use>
+            <use xlink:href="#main-text" class="text-dash"></use>
+            <use xlink:href="#main-text" class="text-dash"></use>
+            <use xlink:href="#main-text" class="text-dash"></use>
+            </g>
+            </svg>
+        </div>
+
+
         <section class="row mb-5 section-contacto">
             <div class="col laptop">
                 <img src="images/portatil-apple.png" alt="LogoGM" class="img-fluid reflection">
             </div>
-           
+
             <div class=" align-items-center col" >
-                 <img src="https://www.pngkit.com/png/full/408-4085886_imac-computadora-mac-computadoras-circuitos-indices-imac-27.png" alt="Computer" class="img-fluid reflection">
+                <img src="https://www.pngkit.com/png/full/408-4085886_imac-computadora-mac-computadoras-circuitos-indices-imac-27.png" alt="Computer" class="img-fluid reflection">
             </div>
 
             <div class="col">
@@ -96,7 +104,7 @@
             </div>
         </section>
 
-   <footer class="row text-center border-top border-secondary">
+        <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
                 <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>

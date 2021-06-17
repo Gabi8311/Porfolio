@@ -5,7 +5,7 @@
 }
 
 html {
-  cursor: url("https://img.icons8.com/officexs/2x/generic-mouse.png"), auto;
+   cursor: url("https://img.icons8.com/nolan/30/center-direction.png"), auto;
   scroll-behavior: smooth;
 }
 
@@ -14,11 +14,13 @@ body {
   font-weight: 200;
   font-size: .9em;
   overflow-x: hidden;
+  margin: 0;
 }
 
 a{
+  cursor: url("https://img.icons8.com/offices/30/000000/flash-bang.png"),pointer;
+
   color:inherit;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
 }
 
 header{
@@ -55,7 +57,7 @@ footer {
   width: 17%;
   height: 95%;
   margin-left: 10%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   border-radius: 50%;
   transition: all .4s;
 }
@@ -105,7 +107,7 @@ footer {
   filter:drop-shadow (0px 0px 10px #c32aa3); 
   transition: .5s;
   padding: 3%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .fa-facebook-f:hover {
@@ -113,7 +115,7 @@ footer {
   filter:drop-shadow (0px 0px 10px  #1877f2); 
   transition: .5s;
   padding: 3%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .fa-github:hover {
@@ -121,7 +123,7 @@ footer {
   filter:drop-shadow (0px 0px 10px #555); 
   transition: .5s;
   padding: 3%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 } 
 
 .fa-linkedin-in:hover {
@@ -129,10 +131,10 @@ footer {
   filter:drop-shadow (0px 0px 10px  #034eb1); 
   padding: 3%;
   transition: .1s;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 } 
  
- /*--- hr a--*/
+ /*--- HR --*/
 
 .aire{
   width: 80%;
@@ -152,7 +154,7 @@ footer {
   border-color: lightslategray;
 }
 
-  /*-- GABRIEL MORENO HEADER CONTACT --*/
+/*-- GABRIEL MORENO HEADER CONTACT --*/
 svg{
   display: block;
   font: 7.5em 'Montserrat';
@@ -202,7 +204,6 @@ svg{
 }
 
  /* ----- DARKEN BG -----*/
-  
  .darken {
   padding: 200px 0;
   text-align: center;
@@ -225,8 +226,6 @@ svg{
 }
 
 /* ----- REVEAL EFFECTS ----- */
-  
-  
 .reveal.fadeInUp {
   opacity: 0;
   transition-property: all;
@@ -282,7 +281,6 @@ svg{
 }
 
 /* ----- ABOUT ----- */
-  
 .about img {
   width: 50%;
   box-shadow: 0px 0px 10px rgba(0,0,0,.4);
@@ -290,7 +288,6 @@ svg{
 }
 
  /* ----- NAVIGATION ----- */
-  
  .navigation {
   border-bottom: 1px solid rgb(230,230,230);
   display: flex;
@@ -305,7 +302,6 @@ svg{
 
 .navigation.sticky {
   padding: 0;
-/*  background: #fff;-------ELEGIR ENTRE TRANSPARENTE O BLANCO--------------------*/
   backdrop-filter: blur(15px)
 }
 
@@ -358,7 +354,7 @@ svg{
 .boton-arriba{
   line-height: 1;
   padding: .2% 1% .8% 1%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 /*-- PARALLAX --*/
@@ -386,7 +382,7 @@ svg{
   background-color: #4158D0;
   background-image: linear-gradient(43deg,#821dd4 0%,#C850C0 46%,#ba70ff 100%);
   position: relative;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   transform-style: preserve-3d;
   transform: perspective(1000px);
   border-radius: 20px;
@@ -450,7 +446,7 @@ svg{
   transform: translateZ(150px);
 }
 
-/*Ver más*/
+/*-- VER MÁS --*/
 .contenedor{
   font-size: 1.2rem;
   color: #ba70ff;
@@ -458,7 +454,7 @@ svg{
   top: 100%;
   left: 52%;
   transform: translate(-50%, -50%);
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   margin-top: 4%;
 }
 
@@ -508,7 +504,7 @@ svg{
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
-/*---- Autorrellenable ----*/
+/*---- AUTORRELLENABLE ----*/
 .autorrellenable{
   width: 100%;
   height: 100%;
@@ -516,20 +512,21 @@ svg{
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;  
+  margin-bottom: 5%;
 }
 
 #text, .line{
   font-size: 2rem;
 }
 
-/*-- Foto con iconos --*/
+/*-- FOTO CON ICONOS --*/
 
 .section-members {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3% 0 10% 0;
+  margin: 3% 0 2% 0;
 }
 
 .team-member{
@@ -538,7 +535,7 @@ svg{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
   overflow: hidden;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .team-member img {
@@ -556,8 +553,6 @@ svg{
   position: absolute;
   left: 0;
   bottom: 0;
-/*  left:35% ;
-  bottom:-80%;*/
 }
 
 .social-media-icons a {
@@ -572,7 +567,7 @@ svg{
   opacity: 0.8;
   transform: translate(-50px, -50px);
   transition: transform 0.3s;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social-media-icons a:hover {
@@ -692,7 +687,7 @@ i {
   bottom: 0;
   left: 0;
   right: 0;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social .btn .fa {
@@ -714,7 +709,7 @@ i {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 35%;
   border-bottom-right-radius: 25%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social .btn:before {
@@ -889,7 +884,7 @@ i {
   width: 100%;
   height: 100%;
   position: relative;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   overflow: hidden;
 }
 
@@ -935,7 +930,7 @@ i {
 /*---- DARK MODE ---*/
 label::before {
   display: block;
-  color:  #ca89f5;
+  color:  #38016E;
   content: 'Light-Mode';
   margin-top: 1rem;
   font-size: .9rem;
@@ -965,25 +960,25 @@ input[type=checkbox] {
   -webkit-appearance: none;
   width: 5rem;
   height: 1.6rem;
-  border: 2px solid  #ca89f5;
+  border: 2px solid  #38016E;
   border-radius:  1rem;
   position: absolute;
   right: 11%;
   top: 110%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 input[type="checkbox"]::after {
   position: absolute;
   top: 0;
   left: 0;
-  content: " ";
   width: 50%;
   height: 100%;
   background: #514878;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   content: 'OFF';
+  font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1055,7 +1050,7 @@ input[type="checkbox"]::after {
   display: none;
   justify-content: center;
   align-items: center;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   position: absolute;
   right: 25px;
 }
@@ -1115,7 +1110,7 @@ input[type="checkbox"]::after {
     }
     
     .nav-list li a:hover{
-      background-color: black;
+      background-color: transparent;
       color: #9e00ff;
       transform: translateY(-10px);
     }
@@ -1161,7 +1156,7 @@ input[type="checkbox"]::after {
   width: 150px;
   height: 45px;
   position: relative;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   transition: all .4s;
   color: #818181;
 }
@@ -1224,11 +1219,11 @@ input[type="checkbox"]::after {
 .button-border:hover .d3, .button-border:hover .d4 {
   transform: scaleY(1);
   transition-delay: .4s;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .button-border:hover a {
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   color: #fff;
 }
 
@@ -1319,7 +1314,7 @@ input[type="checkbox"]::after {
   outline-offset: 10%;
   transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
   padding-bottom: 1%;
-  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;
+/*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
   line-height: 1.3;
   padding: 0.1% 0 0.5% 0;
 }
@@ -1338,14 +1333,14 @@ input[type="checkbox"]::after {
 /*-- SHADOW --*/
 .shadow-text {
   text-shadow: 0px 2px 1px #575760,
-                0px 4px 7px rgba(0,0,0,0.1),
-                0px 9px 12px rgba(0,0,0,0.1);
+               0px 4px 7px rgba(0,0,0,0.1),
+               0px 9px 12px rgba(0,0,0,0.1);
 }
 
 .shadow-text-purple {
-  text-shadow: -1px 1px 0px #6DFCFA,
-                -2px 2px 0px #03D2CF,
-                -3px 3px 0px #005554;
+  drop-shadow: 1px 1px 0px #6DFCFA,
+               2px 2px 0px #03D2CF,
+               3px 3px 0px #005554;
 }
 
 /*-- ENLARGE --*/
@@ -1392,9 +1387,18 @@ input[type="checkbox"]::after {
 }
 
 .mi-foto{
-  width: 70%;
-  filter:drop-shadow(0 0 1.2rem #fff);
-  
+  width: 25%;
+  filter:drop-shadow(3px 3px 2px #7516D4);
+}
+.developer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  top: 73%;
+  left: 22%;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .section, .section-contacto{
@@ -1436,7 +1440,7 @@ input[type="checkbox"]::after {
                1px 13px 5px rgba(14,14,14,0.4),
                1px 16px 5px rgba(14,14,14,0.2),
                1px 18px 5px rgba(14,14,14,0.2),
-               1px 21px 5px rgba(14,14,14,0.4)
+               1px 21px 5px rgba(14,14,14,0.4);
 }         
 
 .paragraph {
@@ -1486,8 +1490,8 @@ input[type="checkbox"]::after {
         transform: translateY(500%);
     }
 }
- /*-- HEADER BACKGROUND --*/
 
+ /*-- HEADER BACKGROUND --*/
 .h1 {
   position: absolute;
   top: 50%;
@@ -1496,7 +1500,7 @@ input[type="checkbox"]::after {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 8rem;
+  font-size: 9rem;
   color: transparent;
 }
 
@@ -1511,22 +1515,57 @@ input[type="checkbox"]::after {
 .h1::before {
   top: 0;
   left: 0;
-  clip-path: polygon(0 0, 72.5% 0,27.5% 100%, 0 100%);
+  clip-path: polygon(0 0, 96% 0,4% 100%, 0 100%);
   color:#111;
 }
 
 .h1::after {
   bottom: 0;
   right: 0;
-  clip-path: polygon(100% 0, 72.5% 0,27.5% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 96% 0,4% 100%, 100% 100%);
   color: #38016E;
 }
 /**/
 .p-blog {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 /**/
 .main-padding {
     padding-top: 45%;
 }
 /**/
+.section-blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-- CURSOR --*/
+.cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #8F619E;
+  border-radius: 50%;
+}
+
+.cursor::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #8F619E;
+  border-radius: 50%;
+  animation: anim1 1.5s linear infinite;
+}
+
+@keyframes anim1 {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.7);
+    }
+}

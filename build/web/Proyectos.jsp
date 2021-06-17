@@ -46,6 +46,8 @@
 
             </nav>
         </header>    
+        
+         <div class="cursor"></div>
 
         <main>
             <div class="fake-bg"></div>
@@ -159,7 +161,6 @@
 
             <script src="js/index.js"></script>
             <script src="js/vanilla-tilt.js"></script>
-            <script src="js/proyectos.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
             </script>

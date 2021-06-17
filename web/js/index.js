@@ -37,7 +37,9 @@
     }
 
 
-    // Scroll navigation links
+   
+})();
+ // Scroll navigation links
     const scrollButtons = document.querySelectorAll('.scrollto');
     scrollButtons.forEach(elm => {
         elm.onclick = e => {
@@ -45,4 +47,9 @@
             document.querySelector(href).scrollIntoView({behavior: 'smooth'})
         }
     })
-})();
+    
+    // Cursor
+    const cursor = document.querySelector(".cursor")
+        document.addEventListener("mousemove", e => {
+            cursor.setAttribute("style","top:" + e.pageY + "px;left:" + e.pageX + "px;")
+        })

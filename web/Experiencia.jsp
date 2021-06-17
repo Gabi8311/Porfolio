@@ -44,6 +44,8 @@
             </nav>
         </header>    
 
+        <div class="cursor"></div>
+        
         <main>
 
             <section class="caja" id="header">
