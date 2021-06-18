@@ -49,7 +49,7 @@
         <main>
 
             <section class="caja" id="header">
-                <img src="images/programmin.jpg" alt="Fondo_arriba" class="fondo_arriba">
+                <img src="images/programmin.jpg" alt="Fondo_arriba" class="fondo_arriba_bis">
             </section>
 
 

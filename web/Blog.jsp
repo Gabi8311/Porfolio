@@ -49,7 +49,7 @@
         <div class="cursor"></div>
 
         <section class="caja" id="header">
-            <img src="images/blog6.jpg" alt="Fondo_arriba" class="fondo_arriba mb-5">
+            <img src="images/blog6.jpg" alt="Fondo_arriba" class="fondo_arriba_bis mb-5">
         </section>
         
             <p class="parrafo">Mis post más destacados</p>
@@ -58,7 +58,7 @@
             <section class="text-center mb-5 row" data-color="rgb(20,20,20)">
                 <% List<Articulo> posts = (List) request.getSession().getAttribute("posts");%>
                 <%for (Articulo post : posts) {%>
-                <div class="card my-4 border-secondary text-center mx-3 mx-auto enlarge" style="width: 40%">
+                <div class="col-12 col-md-12 col-lg-6 card my-4 border-secondary enlarge card-blog" style="width: 40%">
                     <div class="card-header border-secondary post-header">
                         <%for (Categoria categoria : post.getCategorias()) {%>
                         <span class="ml-3"><%=categoria.getNombre()%></span> | 

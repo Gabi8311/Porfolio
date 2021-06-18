@@ -46,17 +46,17 @@
         
         <div class="cursor"></div>
 
-        <section class="caja" id="header">
-            <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5">
+        <section class="caja row" id="header">
+            <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5 col-12">
         </section>
 
 
         <main class="container mt-5 section-padding">
             <section class="pb-3">
-                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%;">
+                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%;" id="logo-visita-gmq">
                     <div class="row g-0">
                         <div class="col-md-3 mt-5 reveal fadeInUp">
-                            <img src="images/gmq_logo.jpg" alt="Logo_GMQ" class=" mt-4 ml-3">
+                            <img src="images/gmq_logo.jpg" alt="Logo_GMQ" class=" mt-4 ml-3" id="logo_gmq" id="logo-gmq">
                         </div>
                         <div class="col-md-9">
                             <div class="card-body reveal fadeInRight text-center">
@@ -68,16 +68,16 @@
                         </div>
                     </div>
                     <div class="card-body ml-2">
-                        <a href="https://www.gmqtech.es/" class="card-link ml-5" target="_blank">Visita su Web</a>
+                        <a href="https://www.gmqtech.es/" class="card-link ml-5" target="_blank" id="visita-gmq">Visita su Web</a>
                     </div>
                 </div>
             </section>
 
             <section class="my-5">
-                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%; max-height: 10%;">
+                <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%; max-height: 10%;" id="logo-visita-ironhack">
                     <div class="row g-0">
                         <div class="col-md-3 mt-4 reveal fadeInUp">
-                            <img src="https://img.emg-services.net/institutes/institute29142/logos/logo.png" alt="Logo_Ironhack" class="mt-5 ml-4">
+                            <img src="https://img.emg-services.net/institutes/institute29142/logos/logo.png" alt="Logo_Ironhack" class="mt-5 ml-4" id="logo-ironhack">
                         </div>
                         <div class="col-md-9">
                             <div class="card-body reveal fadeInRight text-center">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-body ml-1">
+                    <div class="card-body ml-1" id="visita-ironhack">
                         <a href="https://www.credential.net/d82b2a4e-8a06-44b6-a9a5-1f1f30cd2a3d#gs.tlv3fu" class="card-link mr-3" target="_blank">Certificación</a>
                         |
                         <a href="https://www.ironhack.com/es" class="card-link" target="_blank">Visita su Web</a>

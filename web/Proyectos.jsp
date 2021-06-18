@@ -53,7 +53,7 @@
             <div class="fake-bg"></div>
 
             <section class="caja" id="header">
-                <img src="images/project4.jpg" alt="Fondo_arriba" class="fondo_arriba mb-5">
+                <img src="images/project4.jpg" alt="Fondo_arriba" class="fondo_arriba_bis mb-5">
             </section>
 
             <section class="reveal fadeInUp text-center mt-3">
@@ -75,7 +75,7 @@
                     <% List<Repositorio> repos = (List) request.getSession().getAttribute("repos");%>
                     <%for (Repositorio repo : repos) {%>
 
-                    <div class="col-4 my-5 font-weight-bold">
+                    <div class="col-md-12 col-lg-6 col-xl-4 my-5 font-weight-bold">
                         <div class="card bg-light mx-0 img-shadow-white border border-dark enlarge">
                             <div class="card-header repo"><h5 class="card-title text-white"><%=repo.getNombre()%></h5></div>
                             <div class="card-body">

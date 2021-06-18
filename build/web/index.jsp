@@ -8,6 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
+        <link rel="icon" type="image/png" href="images/logoGMAbajo.png" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,50 +22,50 @@
     <body class="my-bg" id="body">
 
         <div class="fake-bg"></div>
-       
-               <header class="navigation row" id="header-nav">
-       
-               </section>
-               <div class="col-1">
-                   <a href="index.jsp" class=" mt-2 ml-5">
-                       <img src="images/logoGM.PNG" alt="LogoGM" class="my-logo">
-                   </a>
-               </div>
-       
-               <nav class="col-11">
-                   <input type="checkbox" id="hamburguer-toggle">
-                   <label for="hamburguer-toggle" class="hamburguer">
-                       <span class="bar"></span>
-                   </label>
-       
-                   <ul class="nav-list shadow-text">
-                       <li><a href="Educacion.jsp" class="">Educación</a></li>
-                       <li><a href="Repos_request" class="" >Proyectos</a></li>
-                       <li><a href="Experiencia.jsp" class="">Experiencia</a></li>
-                       <li><a href="Post_request" class="">Blog</a></li>
-                       <li><a href="Contacto.jsp" class="">Contacto</a></li>
-                   </ul>
-               </nav>
-           </header>  
-     
+
+        <header class="navigation row" id="header-nav">
+
+            <div class="col-1">
+                <a href="index.jsp" class="mt-2 ml-5">
+                    <img src="images/logoGM.PNG" alt="LogoGM" class="my-logo">
+                </a>
+            </div>
+
+            <nav class="col-6 col-lg-11">
+                <input type="checkbox" id="hamburguer-toggle">
+                <label for="hamburguer-toggle" class="hamburguer">
+                    <span class="bar"></span>
+                </label>
+
+                <ul class="nav-list shadow-text">
+                    <li><a href="Educacion.jsp" class="">Educación</a></li>
+                    <li><a href="Repos_request" class="" >Proyectos</a></li>
+                    <li><a href="Experiencia.jsp" class="">Experiencia</a></li>
+                    <li><a href="Post_request" class="">Blog</a></li>
+                    <li><a href="Contacto.jsp" class="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>  
+
         <div class="cursor"></div>
         
-        <h1 class="h1" data-text="Gabriel Moreno">Gabriel Moreno</h1>
-        <section class="header-home" id="header">
-            <div class="animated-area"></div>
+        <section class="">
+            <h1 class="h1" data-text="Gabriel Moreno">Gabriel Moreno</h1>
+            <section class="header-home" id="header">
+                <div class="animated-area"></div>
+            </section>
         </section>
-        
 
         <input type="checkbox" id="switch" onchange="changeToDarkMode()">
         <label for="switch"></label>
 
-        <div class="developer">
+        <div class="developer fadeInUp" data-delay="800ms">
             <img src="images/dibu_foto.PNG" alt="Mi_foto" class="mi-foto shadow-text-purple">
-            <h2 class="text-white shadow-text">Desarrollador Front-End</h2>
+            <h2 class="front-end">Desarrollador Front-End</h2>
         </div>
         <main class="container my-5 main-padding" id="main">
 
-            <section class="row centro p-3 text-center reveal fadeInLeft centro">
+            <section class="row centro p-3 text-center reveal fadeInLeft centro" data-delay="800ms" id="section-educacion">
                 <div class="col-12 col-lg-6">
                     <img src="https://images.idgesg.net/images/idge/imported/imageapi/2019/12/13/19/certification_education_knowledge_learning_silhouette_with_graduation_cap_with_abstract_technology_imagery_nodes_blocks_blockchain_by_monsitj_gettyimages-961656326_1200x800-100766597-large-100780539-large-100824062-large.jpg" alt="Foto_educación" class="rounded-pill img-fluid img-shadow reduce">
                 </div>
@@ -83,7 +84,7 @@
 
             <hr class="aire">
 
-            <section class="row centro p-3 text-center reveal fadeInRight centro">
+            <section class="row centro p-3 text-center reveal fadeInRight centro" data-delay="800ms">
                 <div class="col-12 col-lg-6">
                     <h4 class="h4 mb-3"><span class="brackets align-middle">{</span> Proyectos <span class="brackets align-middle">}</span></h4>
                     <p class="paragraph">"No se están teniendo en cuenta las necesidades del animal. El ser humano se ha enfocado en ser
@@ -96,13 +97,13 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="https://dineroclub.net/wp-content/uploads/2020/12/PROGRAMMING.jpg" alt="Foto_proyectos" class="rounded-pill img-fluid img-shadow reduce">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg" alt="Foto_proyectos" class="rounded-pill img-fluid img-shadow reduce">
                 </div>
             </section>
 
             <hr class="aire">
 
-            <section class="row centro p-3 text-center reveal fadeInLeft mb-5 pb-5 centro">
+            <section class="row centro p-3 text-center reveal fadeInLeft mb-5 pb-5 centro" data-delay="800ms">
                 <div class="col-12 col-lg-6">
                     <img src="https://speaktocode.com/wp-content/uploads/2021/02/top-programming-languages.jpg" alt="Foto_skills" class="rounded-pill img-fluid img-shadow">
                 </div>
@@ -119,7 +120,7 @@
                 </div>
             </section>
 
-            <section class="darken border-top border-bottom reveal fadeInRight aire centro">
+            <section class="darken border-top border-bottom reveal fadeInRight aire centro" data-delay="800ms">
 
                 <div class="row centro text-center change-background" data-color="rgb(20,20,20)">
                     <div class="col-12 col-lg-6">
@@ -139,7 +140,7 @@
                 </div>
             </section>
 
-            <section class="row centro p-3 text-center reveal fadeInLeft centro">
+            <section class="row centro p-3 text-center reveal fadeInLeft centro" data-delay="800ms">
                 <div class="col-12 col-lg-6">
                     <img src="https://img.freepik.com/foto-gratis/imagen-primer-plano-manos-masculinas-smartphone-icono-telefono-correo-electronico-telefono-movil-direccion-contactenos-conexion-concepto-marketing-correo-electronico_20693-316.jpg?size=626&ext=jpg" alt="Foto_contacto" class="rounded img-fluid img-shadow reduce">
                 </div>
@@ -160,8 +161,8 @@
 
             <section class="row ml-5 pl-2 text-center">
                 <% List<Comentario> comentarios = ConsultasIniciales.selectComentarios();
-                for (Comentario comentario : comentarios) {%>
-                <div class="card-180 col">
+                    for (Comentario comentario : comentarios) {%>
+                <div class="col-12 col-md-6 col-lg-4 card-180 my-5">
                     <div class="card-side front">
                         <div class="content">
                             <h5><i class="fas fa-quote-left mr-2 reduce"></i><%=comentario.getTexto()%> <i class="fas fa-quote-right ml-2 reduce"></i></h5>
