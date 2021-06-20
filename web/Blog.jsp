@@ -18,7 +18,6 @@
         <script src="https://kit.fontawensome.com/dd8c49730d.js" crossorigin="anonymous"></script>
     </head>
 
-
     <body class="black">
 
         <header class="navigation row" id="header-nav">
@@ -48,13 +47,13 @@
 
         <div class="cursor"></div>
 
-        <section class="caja">
+        <section class="caja section">
             <img src="images/blog6.jpg" alt="Fondo_arriba" class="fondo_arriba_bis mb-5">
         </section>
 
-        <p class="parrafo">Mis post más destacados</p>
+        <p class="parrafo margin-blog">Mis post más destacados</p>
 
-        <main class="container section-padding">
+        <main class="container">
             <section class="text-center mb-5 row" data-color="rgb(20,20,20)">
                 <% List<Articulo> posts = (List) request.getSession().getAttribute("posts");%>
                 <%for (Articulo post : posts) {%>
@@ -80,7 +79,6 @@
                     </div>
                 </div>
                 <% }%>
-
             </section>
 
         </main>
@@ -102,7 +100,6 @@
                 <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                 <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
-
 
             <div class="col-12">
                 <ul class="nav justify-content-center">

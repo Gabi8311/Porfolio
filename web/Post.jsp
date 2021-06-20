@@ -101,7 +101,6 @@
                 <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
 
-
             <div class="col-12">
                 <ul class="nav justify-content-center">
                     <li class="nav-item span">

@@ -52,7 +52,6 @@
                 <img src="images/programmin.jpg" alt="Fondo_arriba" class="fondo_arriba_bis">
             </section>
 
-
             <section class="cuerpo">
                 <div class="cube">
                     <div class="box1 box-2">
@@ -75,7 +74,6 @@
                     </div>
                 </div>
             </section>
-
 
             <section class=" my-5 container-fluid ml-3 section-padding" id="about">
                 <div class="row justify-content-center align-items-center about">
@@ -235,7 +233,6 @@
                     <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                 </div>
 
-
                 <div class="col-12">
                     <ul class="nav justify-content-center">
                         <li class="nav-item span">
@@ -264,7 +261,6 @@
                 </div>
 
             </footer>
-
 
             <script src="js/index.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

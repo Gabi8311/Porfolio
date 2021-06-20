@@ -64,9 +64,9 @@
             <h2 class="front-end">Desarrollador Front-End</h2>
         </div>
         
-        <main class="container my-5 main-padding" id="main">
+        <main class="container mb-5 main-padding" id="main">
 
-            <section class="row centro p-3 text-center reveal fadeInLeft centro" data-delay="800ms" id="section-educacion">
+            <section class="row centro p-3 text-center reveal fadeInLeft" data-delay="800ms" id="section-educacion">
                 <div class="col-12 col-lg-6">
                     <img src="https://images.idgesg.net/images/idge/imported/imageapi/2019/12/13/19/certification_education_knowledge_learning_silhouette_with_graduation_cap_with_abstract_technology_imagery_nodes_blocks_blockchain_by_monsitj_gettyimages-961656326_1200x800-100766597-large-100780539-large-100824062-large.jpg" alt="Foto_educación" class="rounded-pill img-fluid img-shadow reduce">
                 </div>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg" alt="Foto_proyectos" class="rounded-pill img-fluid img-shadow reduce">
+                    <img src="https://img.freepik.com/free-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg?size=626&ext=jpg" alt="Foto_proyectos" class="rounded-pill img-fluid img-shadow reduce">
                 </div>
             </section>
 
@@ -204,7 +204,6 @@
                 <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank"><i class="fab fa-instagram" rel="noopener noreferrer"></i></a>
                 <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
-
 
             <div class="col-12">
                 <ul class="nav justify-content-center">

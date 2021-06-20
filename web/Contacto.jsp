@@ -88,7 +88,6 @@
             </svg>
         </div>
 
-
         <section class="row mb-5 section-contacto">
             <div class="col laptop">
                 <img src="images/portatil-apple.png" alt="LogoGM" class="img-fluid reflection">

@@ -50,7 +50,6 @@
             <img src="images/learn.PNG" alt="Fondo_arriba" class="fondo_arriba mb-5 col-12">
         </section>
 
-
         <main class="container mt-5 section-padding text-secondary">
             <section class="pb-3">
                 <div class="card mb-3 shadow p-3 mb-5 bg-white rounded mx-auto" style="max-width: 80%;" id="logo-visita-gmq">
@@ -97,7 +96,6 @@
             </section>
         </main>
 
-
         <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
                 <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
@@ -115,7 +113,6 @@
                 <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                 <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
-
 
             <div class="col-12">
                 <ul class="nav justify-content-center">

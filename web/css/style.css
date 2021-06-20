@@ -19,7 +19,6 @@ body {
 
 a{
     cursor: url("https://img.icons8.com/offices/30/000000/flash-bang.png"),pointer;
-
     color:inherit;
 }
 
@@ -57,7 +56,6 @@ footer {
     width: 17%;
     height: 95%;
     margin-left: 10%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
     border-radius: 50%;
     transition: all .4s;
 }
@@ -107,7 +105,6 @@ footer {
     filter:drop-shadow (0px 0px 10px #c32aa3); 
     transition: .5s;
     padding: 3%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .fa-facebook-f:hover {
@@ -115,7 +112,6 @@ footer {
     filter:drop-shadow (0px 0px 10px  #1877f2); 
     transition: .5s;
     padding: 3%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .fa-github:hover {
@@ -123,7 +119,6 @@ footer {
     filter:drop-shadow (0px 0px 10px #555); 
     transition: .5s;
     padding: 3%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 } 
 
 .fa-linkedin-in:hover {
@@ -131,11 +126,9 @@ footer {
     filter:drop-shadow (0px 0px 10px  #034eb1); 
     padding: 3%;
     transition: .1s;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 } 
 
 /*--- HR --*/
-
 .aire{
     width: 80%;
     border-color: darkgrey;
@@ -360,7 +353,6 @@ svg{
 .boton-arriba{
     line-height: 1;
     padding: .2% 1% .8% 1%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .logo-gmq {
@@ -393,7 +385,6 @@ svg{
     background-color: #4158D0;
     background-image: linear-gradient(43deg,#821dd4 0%,#C850C0 46%,#ba70ff 100%);
     position: relative;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
     transform-style: preserve-3d;
     transform: perspective(1000px);
     border-radius: 20px;
@@ -465,7 +456,6 @@ svg{
     top: 100%;
     left: 52%;
     transform: translate(-50%, -50%);
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
     margin-top: 4%;
 }
 
@@ -546,7 +536,6 @@ svg{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     overflow: hidden;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .team-member img {
@@ -578,7 +567,6 @@ svg{
     opacity: 0.8;
     transform: translate(-50px, -50px);
     transition: transform 0.3s;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social-media-icons a:hover {
@@ -698,7 +686,6 @@ i {
     bottom: 0;
     left: 0;
     right: 0;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social .btn .fa {
@@ -720,7 +707,6 @@ i {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 25%;
-    /*  cursor: url("https://img.icons8.com/officexs/2x/mouse-left-click.png"),pointer;*/
 }
 
 .social .btn:before {
@@ -1043,11 +1029,16 @@ i {
 @media(max-width:770px) {
 
     #section-educacion {
-        margin-top: 95%;
+        margin-top: 45%;
+    }
+    
+    .logo-abajo {
+        width: 5rem;
+        padding-bottom: 1rem;
     }
 
     .developer {
-        top: 1.2rem;
+        top: 1.5rem;
         right: 25%;
         text-align: center;
         max-height: 100vh;
@@ -1055,7 +1046,8 @@ i {
     }
 
     .parrafo {
-        font-size: 3rem;
+        font-size: 5rem;
+        max-height: 10%;
     }
 
     #logo-visita-ironhack,#logo-visita-gmq {
@@ -1078,6 +1070,12 @@ i {
 
     .autorrellenable {
         text-align: center;
+    }
+
+    .meteor {
+        width: 100vw;
+        max-width: 100vw;
+        max-height: 100vh;
     }
 
     .nav-list{
@@ -1398,12 +1396,16 @@ i {
     font-weight: 900;
 }
 
-.section, .section-contacto{
+.section, .section-contacto {
     padding:0 0 20% 0;
 }
 
 .section-padding {
     padding: 0 0 5% 0;
+}
+
+.section-margin-top {
+    margin-top: 20%;
 }
 
 .bg-educacion {
@@ -1527,6 +1529,10 @@ i {
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+.margin-blog {
+    margin-top: 30%;
+}
 /**/
 .main-padding {
     padding-top: 45%;
@@ -1591,7 +1597,7 @@ i {
 }
 /**/
 
-.meteor, caja {
+.meteor, .caja {
     max-width: 100vw;
     max-height: 100vh;
 }

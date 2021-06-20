@@ -2,7 +2,6 @@ package hibernate;
 
 import java.io.Serializable;
 import java.sql.Date;
-import java.time.LocalDate;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

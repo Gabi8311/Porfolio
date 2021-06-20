@@ -56,7 +56,7 @@
                 <img src="images/project4.jpg" alt="Fondo_arriba" class="fondo_arriba_bis mb-5">
             </section>
 
-            <section class="reveal fadeInUp text-center mt-3">
+            <section class="reveal fadeInUp text-center section-margin-top">
                 <div class="main">
                     <div class="box img-shadow-white" data-tilt>
                         <div class="circle">
