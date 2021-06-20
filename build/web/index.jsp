@@ -8,11 +8,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
-        <link rel="icon" type="image/png" href="images/logoGMAbajo.png" />
+        <link rel="icon" type="image/png" href="images/favicon.PNG" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/all.js"></script>
@@ -38,18 +37,19 @@
                 </label>
 
                 <ul class="nav-list shadow-text">
-                    <li><a href="Educacion.jsp" class="">Educación</a></li>
-                    <li><a href="Repos_request" class="" >Proyectos</a></li>
-                    <li><a href="Experiencia.jsp" class="">Experiencia</a></li>
-                    <li><a href="Post_request" class="">Blog</a></li>
-                    <li><a href="Contacto.jsp" class="">Contacto</a></li>
+                    <li><a href="index.jsp" class="active">Home</a></li>
+                    <li><a href="Educacion.jsp">Educación</a></li>
+                    <li><a href="Repos_request">Proyectos</a></li>
+                    <li><a href="Experiencia.jsp">Experiencia</a></li>
+                    <li><a href="Post_request">Blog</a></li>
+                    <li><a href="Contacto.jsp">Contacto</a></li>
                 </ul>
             </nav>
         </header>  
 
         <div class="cursor"></div>
         
-        <section class="">
+        <section class="meteor">
             <h1 class="h1" data-text="Gabriel Moreno">Gabriel Moreno</h1>
             <section class="header-home" id="header">
                 <div class="animated-area"></div>
@@ -63,6 +63,7 @@
             <img src="images/dibu_foto.PNG" alt="Mi_foto" class="mi-foto shadow-text-purple">
             <h2 class="front-end">Desarrollador Front-End</h2>
         </div>
+        
         <main class="container my-5 main-padding" id="main">
 
             <section class="row centro p-3 text-center reveal fadeInLeft centro" data-delay="800ms" id="section-educacion">
@@ -198,10 +199,10 @@
             </div> 
 
             <div class="social col-md col-xl-3 mb-2">
-                <a class="btn linkedin" href="https://www.linkedin.com/in/gabriel-moreno-fernandez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn github" href="https://github.com/Gabi8311" target="_blank"><i class="fab fa-github"></i></a>
-                <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn linkedin" href="https://www.linkedin.com/in/gabriel-moreno-fernandez/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn github" href="https://github.com/Gabi8311" target="_blank"><i class="fab fa-github" rel="noopener noreferrer"></i></a>
+                <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank"><i class="fab fa-instagram" rel="noopener noreferrer"></i></a>
+                <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
 
 

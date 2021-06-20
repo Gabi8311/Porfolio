@@ -5,10 +5,7 @@
     var f = -1
     var k = 1
     setInterval(type, 5000)
-    setInterval(invisible, 400)
-    function invisible() {
-        document.getElementById("line").classList.toggle("invisible")
-    }
+   
     var firstTime = true
     function type() {
         

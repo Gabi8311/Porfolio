@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Post
-    Created on : 28-ene-2021, 10:17:21
-    Author     : Gabriel Moreno
---%>
-
 <%@page import="hibernate.Categoria"%>
 <%@page import="hibernate.Articulo"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,12 +7,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Post</title>
+        <link rel="icon" type="image/png" href="images/favicon.PNG" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Raleway:wght@300&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/all.js"></script>
         <script src="https://kit.fontawensome.com/dd8c49730d.js" crossorigin="anonymous"></script>
@@ -42,19 +35,20 @@
                 </label>
 
                 <ul class="nav-list shadow-text">
-                    <li><a href="Educacion.jsp" class="">Educación</a></li>
-                    <li><a href="Repos_request" class="" >Proyectos</a></li>
-                    <li><a href="Experiencia.jsp" class="">Experiencia</a></li>
-                    <li><a href="Post_request" class="">Blog</a></li>
-                    <li><a href="Contacto.jsp" class="">Contacto</a></li>
+                    <li><a href="index.jsp">Home</a></li>
+                    <li><a href="Educacion.jsp">Educación</a></li>
+                    <li><a href="Repos_request">Proyectos</a></li>
+                    <li><a href="Experiencia.jsp">Experiencia</a></li>
+                    <li><a href="Post_request" class="active">Blog</a></li>
+                    <li><a href="Contacto.jsp">Contacto</a></li>
                 </ul>
 
             </nav>
         </header>  
-        
-         <div class="cursor"></div>
 
-        <section class="caja" id="header">
+        <div class="cursor"></div>
+
+        <section class="caja">
             <img src="images/reader.jpg" alt="Fondo_arriba" class="fondo_arriba">
         </section>
 
@@ -78,18 +72,18 @@
                     </div>
                 </div>
             </section>
-                     <div class="main-button center-button">
-                            <div class="button-border center-button">
-                                <a href="Post_request" class="text-decoration-none fs-6">Volver<i class="fas fa-sign-out-alt ml-2"></i></a>
-                                <div class="d1"></div>
-                                <div class="d2"></div>
-                                <div class="d3"></div>
-                                <div class="d4"></div>
-                            </div>
-                        </div>
+            <div class="main-button center-button">
+                <div class="button-border center-button">
+                    <a href="Post_request" class="text-decoration-none fs-6">Volver<i class="fas fa-sign-out-alt ml-2"></i></a>
+                    <div class="d1"></div>
+                    <div class="d2"></div>
+                    <div class="d3"></div>
+                    <div class="d4"></div>
+                </div>
+            </div>
         </main>
-    
-    <footer class="row text-center border-top border-secondary">
+
+        <footer class="row text-center border-top border-secondary">
             <div class="col-12 col-lg-3 mt-5">
                 <img src="images/logoGM.PNG" alt="LogoGM" class="logo-abajo">
             </div>
@@ -101,10 +95,10 @@
             </div> 
 
             <div class="social col-md col-xl-3 mb-2">
-                <a class="btn linkedin" href="https://www.linkedin.com/in/gabriel-moreno-fernandez/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn github" href="https://github.com/Gabi8311" target="_blank"><i class="fab fa-github"></i></a>
-                <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn linkedin" href="https://www.linkedin.com/in/gabriel-moreno-fernandez/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn github" href="https://github.com/Gabi8311" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a class="btn instagram" href="https://www.instagram.com/gabi_mf83/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a class="btn facebook" href="https://www.facebook.com/gabriel.morenofernandez" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
             </div>
 
 
@@ -137,16 +131,16 @@
 
         </footer>
 
-    <script src="js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-</body>
+        <script src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+    </body>
 
 </html>

@@ -39,7 +39,7 @@
 
    
 })();
- // Scroll navigation links
+    // Scroll navigation links
     const scrollButtons = document.querySelectorAll('.scrollto');
     scrollButtons.forEach(elm => {
         elm.onclick = e => {
